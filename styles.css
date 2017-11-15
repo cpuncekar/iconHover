@@ -1,0 +1,106 @@
+/*CSS Styles*/
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+/*http://ionicons.com/#cdn*/
+body {
+	margin: 0;
+	padding: 0;
+	background: #313131;
+	font-family: sans-serif;
+}
+
+h4 {
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}
+
+.hero_heading h4{
+    border: 1px solid red;
+    color: white;
+    //top: 0; left: 0; bottom: 0; right: 0;
+    width: 600px;/*added*/
+    max-width:80%;/*to leave spaces around your text on responsive*/
+    margin:auto;/*changed*/
+}
+
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.icon {
+	width: 120px;
+	height: 80px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+
+}
+
+.icon a {
+	width: 120px;
+	height: 80px;
+	font-size: 40px;
+	color: white;
+	line-height: 40px;
+	display: block;
+	transition: 0.4s all;
+}
+
+.icon:hover > a {
+	height: 55px;
+	line-height: 55px;
+}
+
+/*.btns {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.btns a {
+	width: 60px;
+	height: 60px;
+	font-size: 40px;
+	color: #313131;
+	text-align: center;
+	display: block;
+	float: left;
+	line-height: 60px;
+	border: 4px solid;
+	border-radius: 50%;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.btns a:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0%;
+	height: 0%;
+	transform:translate(-50%,-50%);
+	background: #27ae60;
+	z-index: -1;
+	transition: 0.4s all;
+	border-radius: 50%;
+
+}
+
+.btns a:hover:after {
+	width: 100%;
+	height: 100%;
+}*/
+
+
+
+
